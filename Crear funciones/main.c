@@ -1,17 +1,25 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <conio.h>
 
 char menu();
 
 int main()
 {
+   char opcion;
     char seguir = 's';
 
     do{
 
+     system("cls");
+     printf("a- Sumar\n");
+     printf("b- Restar\n");
+     printf("c- Multiplicar\n");
+     printf("d- Dividir\n");
+     printf("e- Salir\n");
+     printf("Ingrese opcion: ");
+     opcion = getche();
 
-    switch(menu()){
+     switch(opcion){
 
      case 'a':
          printf("\nUsted eligio sumar\n");
@@ -46,14 +54,11 @@ int main()
 
 
     }while(seguir == 'n');
-
-
-
     return 0;
 }
 
 
-char menu(void){
+char menu(){
 
      char opcion;
 
@@ -65,7 +70,5 @@ char menu(void){
      printf("e- Salir\n");
      printf("Ingrese opcion: ");
      opcion = getche();
-
-     return(opcion);
 
 }
