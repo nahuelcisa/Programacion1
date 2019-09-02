@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1567424657 source:c:\users\alumno\desktop\200500\getint200500\main.c
+	<stdio.h>
+	<stdlib.h>
+
