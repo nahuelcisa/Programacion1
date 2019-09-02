@@ -1,28 +1,47 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int getIntRange(int,int);
+int getIntRange(char*,char*, int, int, int , int);
+
 int main()
 {
-    printf("%d", getIntRange(100,500));
+
+
+    printf("%d",getIntRange("Ingrese nota ", "Error. Ingrese nota valida. ", 1,10,3,-1));
+
 
     return 0;
 }
 
-int getIntRange(int min, int max){
+int getIntRange(char* mensaje, char* mensajeError, int min, int max, int intentos, int retornoError){
 
     int num;
+    int contador = 0;
 
-    printf("Ingrese un numero: ");
-    scanf("%d%", &num);
+    printf("%s", mensaje);
+    scanf("%d", &num);
 
-    while(num < min || num > max){
 
-        printf("Error. Ingrese un numero: ");
-        scanf("%d%", &num);
+        while(num < min || num > max){
+
+        printf("%s", mensajeError);
+        scanf("%d", &num);
+
+
+
+        if(contador==intentos){
+            break;
+        }
+
+        contador++;
     }
 
+
+    if(contador == intentos){
+        return retornoError;
+    }else{
     return num;
+    }
 }
 
 
