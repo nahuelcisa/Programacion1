@@ -1,5 +1,6 @@
 # depslib dependency file v1.0
-1568203939 source:c:\users\alumno\desktop\programacion1\vectores para alumnos\main.c
+1568636836 source:c:\users\alumno\desktop\programacion1\vectores para alumnos\main.c
 	<stdio.h>
 	<stdlib.h>
+	<string.h>
 

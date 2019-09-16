@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1568042549 source:c:\users\alumno\desktop\paralelos\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1568638717 source:c:\users\alumno\desktop\paralelosf\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1568639584 source:c:\users\alumno\desktop\programacion1\paralelosf\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
