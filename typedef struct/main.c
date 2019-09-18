@@ -3,6 +3,12 @@
 #include <string.h>
 
 typedef struct{
+        int dia;
+        int mes;
+        int anio;
+    }fecha;
+
+typedef struct{
     int legajo;
     int edad;
     int nota1;
@@ -10,11 +16,7 @@ typedef struct{
     char nombre[20];
     char sexo;
     float promedio;
-    struct{
-        int dia;
-        int mes;
-        int anio;
-    }fechadeingreso;
+    fecha fechadeingreso;
 }eAlumno;
 
 int main()

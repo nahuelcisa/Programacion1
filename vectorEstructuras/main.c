@@ -27,13 +27,13 @@ void ordenarAlumnos(eAlumno vec[], int tam);
 
 int main()
 {
-    eAlumno lista[TAM]= {
+    eAlumno lista[TAM];/*= {
         { 1234,"juan", 20,'m', 7,8,7.5,{21,5,2018} },
         { 1231,"Lucia", 21,'f', 9,6,7.5,{12,3,2019}},
         { 1101,"Alberto", 21,'m', 2,2,2,{28,3,2019}}
-        };
+        };*/
 
-/*
+
     for(int i=0; i < TAM; i++){
     printf("Ingrese nombre: ");
     fflush(stdin);
@@ -69,19 +69,19 @@ int main()
     scanf("%d", &lista[i].fechaIngreso.anio);
     }
 
-    */
+
 
     mostrarAlumnos(lista, TAM);
 
     ordenarAlumnos(lista, TAM);
 
-     mostrarAlumnos(lista, TAM);
+    mostrarAlumnos(lista, TAM);
 
     return 0;
 }
 
 void mostrarAlumno(eAlumno x){
-    printf("  %d  %s  %d  %c  %d %d %.2f %02d/%02d/%d\n",
+    printf(" %d%10s    %d    %c      %d     %d      %.2f   %02d/%02d/%d\n",
            x.legajo,
            x.nombre,
            x.edad,
@@ -96,7 +96,7 @@ void mostrarAlumno(eAlumno x){
 
 void mostrarAlumnos(eAlumno vec[], int tam){
 
-printf(" Legajo Nombre Edad Sexo Nota1 Nota2 Promedio FIngreso\n");
+printf("Legajo   Nombre   Edad  Sexo  Nota1 Nota2 Promedio FIngreso\n");
     for(int i=0; i < tam; i++){
         mostrarAlumno(vec[i]);
     }
