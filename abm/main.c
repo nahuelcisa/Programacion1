@@ -3,7 +3,7 @@
 #include <string.h>
 #include <conio.h>
 
-#define TAM 1
+#define TAM 2
 
 typedef struct{
     int dia;
@@ -30,6 +30,7 @@ void inicializarAlumnos(eAlumno alumnos[], int tam);
 int buscarLibre(eAlumno alumnos[], int tam);
 int buscarAlumno(int legajo, eAlumno alumnos[], int tam);
 int altaAlumno(eAlumno alumnos[], int tam);
+int altaAlumnoAuto(eAlumno alumnos[], int tam,int legajo);
 eAlumno newAlumno (int legajo, char nombre[], char sexo, int edad, int n1, int n2, eFecha fecha);
 int bajaAlumno(eAlumno alumnos[], int tam);
 int modificarAlumnoNota(eAlumno alumnos[],int tam);
@@ -39,7 +40,9 @@ int menuModificarNota();
 int main()
 {
     eAlumno lista[TAM];
+    int legajo = 20000;
     char salir = 'n';
+    //int todoOk;
 
     inicializarAlumnos(lista,TAM);
 
@@ -48,7 +51,10 @@ int main()
         switch(menu()){
 
     case 1:
-            altaAlumno(lista,TAM);
+            //altaAlumno(lista,TAM);
+            if(altaAlumnoAuto(lista,TAM,legajo)){
+                legajo++;
+            }
         break;
     case 2:
         bajaAlumno(lista,TAM);
@@ -223,6 +229,7 @@ int altaAlumno(eAlumno alumnos[], int tam){
                 gets(nombre);
 
                 printf("Ingrese edad:");
+                fflush(stdin);
                 scanf("%d", &edad);
 
                 printf("Ingrese sexo:");
@@ -230,12 +237,15 @@ int altaAlumno(eAlumno alumnos[], int tam){
                 scanf("%c",&sexo);
 
                 printf("Ingrese nota parcial 1:");
+                fflush(stdin);
                 scanf("%d",&nota1);
 
                 printf("Ingrese nota parcial 2:");
+                fflush(stdin);
                 scanf("%d", &nota2);
 
                 printf("Ingrese fecha ingreso: dd/mm/aaaa ");
+                fflush(stdin);
                 scanf("%d/%d/%d", &fecha.dia, &fecha.mes, &fecha.anio);
                     //luego de validar todos los datos, hacer lo que se hace a continuacion:
 
@@ -368,3 +378,57 @@ int opcion;
 
     return opcion;
 }
+
+int altaAlumnoAuto(eAlumno alumnos[], int tam,int legajo){
+
+    int todoOk = 0;
+    int indice;
+    int edad;
+    int nota1;
+    int nota2;
+    char sexo;
+    char nombre[20];
+
+    eFecha fecha;
+
+
+    indice = buscarLibre(alumnos, tam);
+
+    system("cls");
+    printf("**** Alta Alumno ****\n\n");
+
+    if(indice == -1){
+        printf("Sistema Completo. No se pueden agregar mas alumnos\n");
+        system("pause");
+    }else{
+                printf("Ingrese nombre: ");
+                fflush(stdin);
+                gets(nombre);
+
+                printf("Ingrese edad:");
+                scanf("%d", &edad);
+
+                printf("Ingrese sexo:");
+                fflush(stdin);
+                scanf("%c",&sexo);
+
+                printf("Ingrese nota parcial 1:");
+                scanf("%d",&nota1);
+
+                printf("Ingrese nota parcial 2:");
+                scanf("%d", &nota2);
+
+                printf("Ingrese fecha ingreso: dd/mm/aaaa ");
+                scanf("%d/%d/%d", &fecha.dia, &fecha.mes, &fecha.anio);
+                //luego de validar todos los datos, hacer lo que se hace a continuacion:
+
+                alumnos[indice] = newAlumno(legajo,nombre,sexo,edad,nota1,nota2,fecha);
+                todoOk = 1;
+
+        }
+
+        return todoOk;
+}
+
+
+
