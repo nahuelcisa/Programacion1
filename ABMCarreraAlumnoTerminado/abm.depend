@@ -38,3 +38,26 @@
 	"Alumno.h"
 	"Carrera.h"
 
+1569411998 source:c:\users\alumno\desktop\programacion1\abmcarreraalumnoterminado\alumno.c
+	"Alumno.h"
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+
+1569411998 c:\users\alumno\desktop\programacion1\abmcarreraalumnoterminado\alumno.h
+	"Carrera.h"
+
+1569411998 c:\users\alumno\desktop\programacion1\abmcarreraalumnoterminado\carrera.h
+
+1569411998 source:c:\users\alumno\desktop\programacion1\abmcarreraalumnoterminado\carrera.c
+	"Carrera.h"
+
+1569421537 source:c:\users\alumno\desktop\programacion1\abmcarreraalumnoterminado\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	"Alumno.h"
+	"Carrera.h"
+
