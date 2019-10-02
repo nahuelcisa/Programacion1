@@ -65,52 +65,49 @@
 	"carrera.h"
 	"alumno.h"
 
-1570016335 source:c:\users\alumno\desktop\programacion1\abmalumnocarreraslibraryinformes\alumno.c
+1569423345 source:c:\users\alumno\desktop\abmalumnocarreraslibraryinformes\alumno.c
 	"alumno.h"
 	<stdio.h>
 	<stdlib.h>
 	<conio.h>
 	<string.h>
 
-1570016335 c:\users\alumno\desktop\programacion1\abmalumnocarreraslibraryinformes\alumno.h
+1569286799 c:\users\alumno\desktop\abmalumnocarreraslibraryinformes\alumno.h
 	"carrera.h"
 
-1570016335 c:\users\alumno\desktop\programacion1\abmalumnocarreraslibraryinformes\carrera.h
+1569415919 c:\users\alumno\desktop\abmalumnocarreraslibraryinformes\carrera.h
 
-1570016335 source:c:\users\alumno\desktop\programacion1\abmalumnocarreraslibraryinformes\carrera.c
+1569286850 source:c:\users\alumno\desktop\abmalumnocarreraslibraryinformes\carrera.c
 	<stdio.h>
 	<stdlib.h>
 	<conio.h>
 	<string.h>
 	"carrera.h"
 
-1570028249 source:c:\users\alumno\desktop\programacion1\abmalumnocarreraslibraryinformes\main.c
+1569849024 source:c:\users\alumno\desktop\abmalumnocarreraslibraryinformes\main.c
 	<stdio.h>
 	<stdlib.h>
 	<conio.h>
 	<string.h>
 	"carrera.h"
 	"alumno.h"
-	"comida.h"
-	"almuerzo.h"
 
-1570016335 source:c:\users\alumno\desktop\programacion1\abmalumnocarreraslibraryinformes\comida.c
-	<stdio.h>
-	<stdlib.h>
-	<conio.h>
-	<string.h>
-	"comida.h"
-
-1570016335 c:\users\alumno\desktop\programacion1\abmalumnocarreraslibraryinformes\comida.h
-
-1570016335 c:\users\alumno\desktop\programacion1\abmalumnocarreraslibraryinformes\almuerzo.h
+1569423345 source:c:\users\alumno\desktop\programacion1\abmalumnosfull\alumno.c
 	"alumno.h"
-	"comida.h"
-
-1570016335 source:c:\users\alumno\desktop\programacion1\abmalumnocarreraslibraryinformes\almuerzo.c
 	<stdio.h>
 	<stdlib.h>
 	<conio.h>
 	<string.h>
-	"almuerzo.h"
+
+1569286799 c:\users\alumno\desktop\programacion1\abmalumnosfull\alumno.h
+	"carrera.h"
+
+1569415919 c:\users\alumno\desktop\programacion1\abmalumnosfull\carrera.h
+
+1569286850 source:c:\users\alumno\desktop\programacion1\abmalumnosfull\carrera.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	"carrera.h"
 
