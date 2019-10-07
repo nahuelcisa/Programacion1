@@ -57,7 +57,7 @@ void ordenarAlumnos(eAlumno vec[], int tam)
     {
         for(int j= i+1; j <tam; j++)
         {
-            if( vec[i].sexo > vec[j].sexo)
+            if( vec[i].edad > vec[j].edad)
             {
                 auxAlumno = vec[i];
                 vec[i] = vec[j];

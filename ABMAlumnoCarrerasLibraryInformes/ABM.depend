@@ -114,3 +114,52 @@
 	<string.h>
 	"almuerzo.h"
 
+1570402837 source:c:\users\nahuel\desktop\programacion1\abmalumnocarreraslibraryinformes\almuerzo.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	"almuerzo.h"
+
+1570402837 c:\users\nahuel\desktop\programacion1\abmalumnocarreraslibraryinformes\almuerzo.h
+	"alumno.h"
+	"comida.h"
+
+1570402837 c:\users\nahuel\desktop\programacion1\abmalumnocarreraslibraryinformes\alumno.h
+	"carrera.h"
+
+1570402837 c:\users\nahuel\desktop\programacion1\abmalumnocarreraslibraryinformes\carrera.h
+
+1570402837 c:\users\nahuel\desktop\programacion1\abmalumnocarreraslibraryinformes\comida.h
+
+1570403123 source:c:\users\nahuel\desktop\programacion1\abmalumnocarreraslibraryinformes\alumno.c
+	"alumno.h"
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+
+1570402837 source:c:\users\nahuel\desktop\programacion1\abmalumnocarreraslibraryinformes\carrera.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	"carrera.h"
+
+1570402837 source:c:\users\nahuel\desktop\programacion1\abmalumnocarreraslibraryinformes\comida.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	"comida.h"
+
+1570402837 source:c:\users\nahuel\desktop\programacion1\abmalumnocarreraslibraryinformes\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	"carrera.h"
+	"alumno.h"
+	"comida.h"
+	"almuerzo.h"
+
