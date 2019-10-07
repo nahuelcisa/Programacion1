@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1570451397 source:c:\users\alumno\desktop\primer parcial\funcion numero 3\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

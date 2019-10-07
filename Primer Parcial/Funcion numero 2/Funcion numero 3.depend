@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1570452059 source:c:\users\alumno\desktop\primer parcial\funcion numero 3\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1570452333 source:c:\users\alumno\desktop\primer parcial\funcion numero 2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
