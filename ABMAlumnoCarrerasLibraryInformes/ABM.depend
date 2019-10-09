@@ -65,26 +65,26 @@
 	"carrera.h"
 	"alumno.h"
 
-1570016335 source:c:\users\alumno\desktop\programacion1\abmalumnocarreraslibraryinformes\alumno.c
+1570621372 source:c:\users\alumno\desktop\programacion1\abmalumnocarreraslibraryinformes\alumno.c
 	"alumno.h"
 	<stdio.h>
 	<stdlib.h>
 	<conio.h>
 	<string.h>
 
-1570016335 c:\users\alumno\desktop\programacion1\abmalumnocarreraslibraryinformes\alumno.h
+1570621372 c:\users\alumno\desktop\programacion1\abmalumnocarreraslibraryinformes\alumno.h
 	"carrera.h"
 
-1570016335 c:\users\alumno\desktop\programacion1\abmalumnocarreraslibraryinformes\carrera.h
+1570621372 c:\users\alumno\desktop\programacion1\abmalumnocarreraslibraryinformes\carrera.h
 
-1570016335 source:c:\users\alumno\desktop\programacion1\abmalumnocarreraslibraryinformes\carrera.c
+1570621372 source:c:\users\alumno\desktop\programacion1\abmalumnocarreraslibraryinformes\carrera.c
 	<stdio.h>
 	<stdlib.h>
 	<conio.h>
 	<string.h>
 	"carrera.h"
 
-1570028249 source:c:\users\alumno\desktop\programacion1\abmalumnocarreraslibraryinformes\main.c
+1570621372 source:c:\users\alumno\desktop\programacion1\abmalumnocarreraslibraryinformes\main.c
 	<stdio.h>
 	<stdlib.h>
 	<conio.h>
@@ -94,20 +94,20 @@
 	"comida.h"
 	"almuerzo.h"
 
-1570016335 source:c:\users\alumno\desktop\programacion1\abmalumnocarreraslibraryinformes\comida.c
+1570621372 source:c:\users\alumno\desktop\programacion1\abmalumnocarreraslibraryinformes\comida.c
 	<stdio.h>
 	<stdlib.h>
 	<conio.h>
 	<string.h>
 	"comida.h"
 
-1570016335 c:\users\alumno\desktop\programacion1\abmalumnocarreraslibraryinformes\comida.h
+1570621372 c:\users\alumno\desktop\programacion1\abmalumnocarreraslibraryinformes\comida.h
 
-1570016335 c:\users\alumno\desktop\programacion1\abmalumnocarreraslibraryinformes\almuerzo.h
+1570621372 c:\users\alumno\desktop\programacion1\abmalumnocarreraslibraryinformes\almuerzo.h
 	"alumno.h"
 	"comida.h"
 
-1570016335 source:c:\users\alumno\desktop\programacion1\abmalumnocarreraslibraryinformes\almuerzo.c
+1570621372 source:c:\users\alumno\desktop\programacion1\abmalumnocarreraslibraryinformes\almuerzo.c
 	<stdio.h>
 	<stdlib.h>
 	<conio.h>
