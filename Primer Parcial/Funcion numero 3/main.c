@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#define TAM 5
+#define TAM 8
 
 
 typedef struct
@@ -20,10 +20,13 @@ int main()
 {
     eNotebook computadoras[] ={
     {5000,"intel","samsung",520.32},
-    {5001,"amd","toshiba",300.65},
-    {5002,"intel","lenovo",250.89},
     {5003,"amd","sentey",900.74},
-    {5004,"intel","sentey",1500.68}
+    {5002,"intel","lenovo",250.89},
+    {5001,"amd","toshiba",300.65},
+    {5004,"intel","sentey",1500.68},
+    {5004,"amd","sentey",550.68},
+    {5004,"intel","sentey",500.68},
+    {5004,"amd","sentey",150.68}
     };
 
     mostrarNotebooks(computadoras,TAM);
@@ -43,7 +46,7 @@ void ordenarEstructura(eNotebook notebooks[], int tam){
 
     for(int i = 0; i<tam-1;i++){
         for(int j = i+1;j<tam;j++){
-            if(strcmp(notebooks[i].marca,notebooks[j].marca) > 0){
+            if(strcmp(notebooks[i].marca,notebooks[j].marca) == 0){
                 auxiliar = notebooks[j];
                 notebooks[j] = notebooks[i];
                 notebooks[i] = auxiliar;
@@ -51,9 +54,10 @@ void ordenarEstructura(eNotebook notebooks[], int tam){
             }
         }
     }
+
     for(int i = 0; i<tam-1;i++){
         for(int j = i+1;j<tam;j++){
-            if(notebooks[i].precio>notebooks[j].precio){
+            if(notebooks[i].precio > notebooks[j].precio){
                 auxiliar = notebooks[j];
                 notebooks[j] = notebooks[i];
                 notebooks[i] = auxiliar;
