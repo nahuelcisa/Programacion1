@@ -2,8 +2,14 @@
 #include <stdlib.h>
 #include <string.h>
 #include <conio.h>
-#include "autoss.h"
+#include "fecha.h"
 #include "marca.h"
+#include "color.h"
+#include "auto.h"
+#include "servicio.h"
+#include "trabajo.h"
+
+
 int hardcodearAutos( eAuto vec[], int tam, int cantidad)
 {
     int cont = 0;
@@ -43,7 +49,7 @@ void mostrarAuto(eAuto x, eMarca marcas[], int tam, eColor colores[])
 
     cargarDescMarca(x.idMarca, marcas, tam, descMarca);
     cargarDescColor(x.idColor, colores, tam, descColor);
-    printf("  %d  %10s   %s      %s    %4d    \n",
+    printf("  %d    %10s   %10s   %s      %4d    \n",
            x.id,
            x.patente,
            descMarca,
@@ -51,13 +57,14 @@ void mostrarAuto(eAuto x, eMarca marcas[], int tam, eColor colores[])
            x.modelo
            );
 }
+
 void mostrarAutos (eAuto autos[], int tam,  eColor colores[], int tamColor, eMarca marcas[], int tamMarcas)
 {
 
     int flag = 0;
     system("cls");
 
-    printf(" ID    Patente    Marca   Color  Modelo  \n\n");
+    printf(" ID      Patente          Marca       Color       Modelo  \n\n");
 
     for(int i=0; i < tam; i++)
     {
@@ -92,6 +99,7 @@ int altaAuto(eAuto autos[], int tam , eMarca marcas[], int tamMarcas, eColor col
     int idColor;
     int modelo;
     int id;
+    int a;
 
     system("cls");
 
@@ -107,6 +115,17 @@ int altaAuto(eAuto autos[], int tam , eMarca marcas[], int tamMarcas, eColor col
     {
         printf("Ingrese id del Auto: ");
         scanf("%d", &id);
+        a = buscarIdAuto(id,autos,tam);
+        if(a == -1){
+        }else{
+            printf("ya hay un vehiculo ingresado con esa id\n");
+            mostrarAuto(autos[a],marcas,tam,colores);
+            do{
+                printf("Ingrese otro Id: ");
+                scanf("%d", &id);
+                a = buscarIdAuto(id,autos,tam);
+            }while(a != -1);
+        }
 
         printf("Ingrese patente: ");
         fflush(stdin);
@@ -116,17 +135,29 @@ int altaAuto(eAuto autos[], int tam , eMarca marcas[], int tamMarcas, eColor col
         mostrarMarcas(marcas,tamMarcas);
         printf("Ingrese idMarca: ");
         scanf("%d", &idMarca);
+
+
     while(idMarca < 1000 && idMarca > 1005){
-            printf("error. id marca incorrecto.");
-        }
+        printf("error.  id Marca incorrecto.\n");
+        printf("Ingrese idMarca: ");
+        fflush(stdin);
+        scanf("%d", &idMarca);
+    }
+
+
 
         mostrarColores(colores,tamColores);
         printf("Ingrese idColor: ");
         fflush(stdin);
         scanf("%d", &idColor);
-        while(idColor < 5000 && idColor > 5005){
-            printf("error. id color incorrecto.");
-        }
+
+    while(idColor < 5000 && idColor > 5005){
+        printf("error.  id color incorrecto.\n");
+        printf("Ingrese idColor: ");
+        fflush(stdin);
+        scanf("%d", &idColor);
+    }
+
 
         printf("Ingrese modelo(anio): ");
         scanf("%d", &modelo);
@@ -206,6 +237,13 @@ int modificarAuto(eAuto autos[], int tam,eColor colores[], int tamColores,eMarca
             printf("Ingrese nuevo id Color: ");
             fflush(stdin);
             scanf("%d",&autos[indice].idColor);
+    while(autos[indice].idColor < 5000 && autos[indice].idColor > 5005){
+        printf("error.  id Color incorrecto.\n");
+        printf("Ingrese idColor: ");
+        fflush(stdin);
+        scanf("%d", &autos[indice].idColor);
+        }
+
             break;
     case 2:
             printf("Ingrese Nuevo modelo: ");
@@ -257,7 +295,7 @@ int bajaAuto (eAuto autos[], int tam, eColor colores[], int tamColores,eMarca ma
 
     if( indice == -1)
     {
-        printf("No existe un alumno con ese legajo\n\n");
+        printf("No existe un Auto con esa patente\n\n");
 
     }
     else
@@ -282,3 +320,19 @@ int bajaAuto (eAuto autos[], int tam, eColor colores[], int tamColores,eMarca ma
 
     return todoOk;
 }
+
+int buscarIdAuto(int id, eAuto autos[], int tam)
+{
+    int indice = -1;
+
+    for(int i=0; i < tam; i++)
+    {
+        if( autos[i].id == id && autos[i].isEmpty == 0)
+        {
+            indice = i;
+            break;
+        }
+    }
+    return indice;
+}
+
