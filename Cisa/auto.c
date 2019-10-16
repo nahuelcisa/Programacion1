@@ -17,9 +17,9 @@ int hardcodearAutos( eAuto vec[], int tam, int cantidad)
     eAuto suplentes[]=
     {
         { 100, "AA097DB", 1000, 5000,2016,0},
-        { 101, "AUE883", 1003, 5001,2016,0},
+        { 101, "AUE883", 1003, 5000,2016,0},
         { 102, "MBV897", 1004, 5003,2016,0},
-        { 103, "OCO641", 1002, 5004,2016,0},
+        { 103, "OCO641", 1002, 5000,2016,0},
         { 104, "AC186JB", 1001, 5002,2016,0},
         { 105, "JOL136", 1000, 5002,2016,0},
         { 106, "HOK782", 1004, 5004,2016,0},
@@ -137,7 +137,7 @@ int altaAuto(eAuto autos[], int tam , eMarca marcas[], int tamMarcas, eColor col
         scanf("%d", &idMarca);
 
 
-    while(idMarca < 1000 && idMarca > 1005){
+    while(idMarca < 1000 || idMarca > 1005){
         printf("error.  id Marca incorrecto.\n");
         printf("Ingrese idMarca: ");
         fflush(stdin);
@@ -151,7 +151,7 @@ int altaAuto(eAuto autos[], int tam , eMarca marcas[], int tamMarcas, eColor col
         fflush(stdin);
         scanf("%d", &idColor);
 
-    while(idColor < 5000 && idColor > 5005){
+    while(idColor < 5000 || idColor > 5005){
         printf("error.  id color incorrecto.\n");
         printf("Ingrese idColor: ");
         fflush(stdin);
@@ -237,7 +237,7 @@ int modificarAuto(eAuto autos[], int tam,eColor colores[], int tamColores,eMarca
             printf("Ingrese nuevo id Color: ");
             fflush(stdin);
             scanf("%d",&autos[indice].idColor);
-    while(autos[indice].idColor < 5000 && autos[indice].idColor > 5005){
+    while(autos[indice].idColor < 5000 || autos[indice].idColor > 5005){
         printf("error.  id Color incorrecto.\n");
         printf("Ingrese idColor: ");
         fflush(stdin);
