@@ -101,3 +101,99 @@
 	"servicio.h"
 	"trabajo.h"
 
+1571077958 source:c:\users\nahuel\desktop\programacion1\cisa\auto.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"fecha.h"
+	"marca.h"
+	"color.h"
+	"auto.h"
+	"servicio.h"
+	"trabajo.h"
+
+1571077957 c:\users\nahuel\desktop\programacion1\cisa\fecha.h
+
+1571081792 c:\users\nahuel\desktop\programacion1\cisa\marca.h
+
+1571081796 c:\users\nahuel\desktop\programacion1\cisa\color.h
+
+1571178818 c:\users\nahuel\desktop\programacion1\cisa\auto.h
+
+1571081811 c:\users\nahuel\desktop\programacion1\cisa\servicio.h
+
+1571180067 c:\users\nahuel\desktop\programacion1\cisa\trabajo.h
+
+1571077957 source:c:\users\nahuel\desktop\programacion1\cisa\color.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"fecha.h"
+	"marca.h"
+	"color.h"
+	"auto.h"
+	"servicio.h"
+	"trabajo.h"
+
+1571077957 source:c:\users\nahuel\desktop\programacion1\cisa\fecha.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"fecha.h"
+	"marca.h"
+	"color.h"
+	"auto.h"
+	"servicio.h"
+	"trabajo.h"
+
+1571077957 source:c:\users\nahuel\desktop\programacion1\cisa\marca.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"fecha.h"
+	"marca.h"
+	"color.h"
+	"auto.h"
+	"servicio.h"
+	"trabajo.h"
+
+1571179511 source:c:\users\nahuel\desktop\programacion1\cisa\servicio.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"fecha.h"
+	"marca.h"
+	"color.h"
+	"auto.h"
+	"servicio.h"
+	"trabajo.h"
+
+1571190726 source:c:\users\nahuel\desktop\programacion1\cisa\trabajo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"fecha.h"
+	"marca.h"
+	"color.h"
+	"auto.h"
+	"servicio.h"
+	"trabajo.h"
+
+1571191222 source:c:\users\nahuel\desktop\programacion1\cisa\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"fecha.h"
+	"marca.h"
+	"color.h"
+	"auto.h"
+	"servicio.h"
+	"trabajo.h"
+

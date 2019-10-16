@@ -16,14 +16,15 @@
 #define TAMTRABAJO 15
 
 //funciones informes
-void informesAutos(eAuto autos[], int tamAutos , eMarca marcas[], int tamMarcas, eColor colores[], int tamColores, eTrabajo trabajos[], int tamTrabajos, eServicio servicios[], int tamServicio);
+void informesAutos(eAuto autos[], int tamAutos, eMarca marcas[], int tamMarcas, eColor colores[], int tamColores, eTrabajo trabajos[], int tamTrabajos, eServicio servicios[], int tamServicio);
 void mostrarAutosDeUnaMarca(eAuto autos[], int tamAutos, eMarca marcas[], int tamMarcas,eColor colores[]);
 void mostrarAutosMarca(eAuto autos[], int tamAutos, eMarca marcas[], int tamMarcas, int idMarca,eColor colores[]);
 void mostrarAutosXMarca(eAuto autos[], int tamAutos, eMarca marcas[], int tamMarcas, eColor colores[]);
 void mostrarCantidadAutosXMarca(eAuto autos[], int tamAuto, eMarca marcas[], int tamMarcas);
 void marcaMasComprada(eAuto autos[], int tamAutos, eMarca marcas[], int tamMarcas);
 int cantidadAutosMarca(eAuto autos[], int tamAutos,int idMarca);
-//void mostrarTrabajosFechaDeterminada(eTrabajo trabajos[], int tamTrabajos, eServicio servicios[], int tamServicios);
+void mostrarTrabajosFechaDeterminada(eTrabajo trabajos[], int tamTrabajos, eServicio servicios[], int tamServicios);
+void mostrarCantidadAutosXColor(eAuto autos[], int tamAuto, eColor colores[], int tamColores);
 
 //funciones menu
 int menu();
@@ -46,42 +47,44 @@ int main()
     idTrabajo = idTrabajo + hardcodearTrabajos(trabajos,TAMTRABAJO,10);
 
     char respuesta = 'n';
-    do{
+    do
+    {
         switch(menu())
         {
-    case 1:
-        altaAuto(vehiculos,TAMAUTOS,marcas,TAMARCAS,colores,TAMCOLOR);
-        break;
-    case 2:
-        modificarAuto(vehiculos,TAMAUTOS,colores,TAMCOLOR,marcas,TAMARCAS);
-        break;
-    case 3:
-        bajaAuto(vehiculos,TAMAUTOS,colores,TAMCOLOR,marcas,TAMARCAS);
-        break;
-    case 4:
-        mostrarAutos(vehiculos,TAMAUTOS,colores,TAMCOLOR,marcas,TAMARCAS);
-        break;
-    case 5:
-        mostrarMarcas(marcas,TAMARCAS);
-        break;
-    case 6:
-        mostrarColores(colores,TAMCOLOR);
-        break;
-    case 7:
-        mostrarServicios(servicios,TAMSERVICIO);
-        break;
-    case 8:
-        if(altaTrabajo(trabajos,TAMTRABAJO,idTrabajo,vehiculos,TAMAUTOS,servicios,TAMSERVICIO,colores,TAMCOLOR,marcas,TAMARCAS)){
-            idTrabajo++;
-        }
-        break;
-    case 9:
-        mostrarTrabajos(trabajos,TAMTRABAJO,servicios,TAMSERVICIO);
-        break;
-    case 10:
-        informesAutos(vehiculos,TAMAUTOS,marcas,TAMARCAS,colores,TAMCOLOR,trabajos,TAMTRABAJO,servicios,TAMSERVICIO);
-        break;
-    case 11:
+        case 1:
+            altaAuto(vehiculos,TAMAUTOS,marcas,TAMARCAS,colores,TAMCOLOR);
+            break;
+        case 2:
+            modificarAuto(vehiculos,TAMAUTOS,colores,TAMCOLOR,marcas,TAMARCAS);
+            break;
+        case 3:
+            bajaAuto(vehiculos,TAMAUTOS,colores,TAMCOLOR,marcas,TAMARCAS);
+            break;
+        case 4:
+            mostrarAutos(vehiculos,TAMAUTOS,colores,TAMCOLOR,marcas,TAMARCAS);
+            break;
+        case 5:
+            mostrarMarcas(marcas,TAMARCAS);
+            break;
+        case 6:
+            mostrarColores(colores,TAMCOLOR);
+            break;
+        case 7:
+            mostrarServicios(servicios,TAMSERVICIO);
+            break;
+        case 8:
+            if(altaTrabajo(trabajos,TAMTRABAJO,idTrabajo,vehiculos,TAMAUTOS,servicios,TAMSERVICIO,colores,TAMCOLOR,marcas,TAMARCAS))
+            {
+                idTrabajo++;
+            }
+            break;
+        case 9:
+            mostrarTrabajos(trabajos,TAMTRABAJO,servicios,TAMSERVICIO);
+            break;
+        case 10:
+            informesAutos(vehiculos,TAMAUTOS,marcas,TAMARCAS,colores,TAMCOLOR,trabajos,TAMTRABAJO,servicios,TAMSERVICIO);
+            break;
+        case 11:
             printf("Confirma salir?:");
             fflush(stdin);
             respuesta = getche();
@@ -90,10 +93,12 @@ int main()
 
         default:
             printf("\nOpcion Invalida!\n\n");
+            fflush(stdin);
 
-}
+        }
         system("pause");
-    }while(respuesta == 'n');
+    }
+    while(respuesta == 'n');
 
     return 0;
 }
@@ -133,7 +138,7 @@ int menuInformes()
     printf("3-Mostrar Cantidad de autos por Marca\n");
     printf("4-Mostrar La Marca con mas Autos\n");
     printf("5-Mostrar Trabajos de una fecha determinada\n");
-    printf("6-Informe 6\n");
+    printf("6-Mostrar Cantidad de autos por Color\n");
     printf("7-Informe 7\n");
     printf("8-Informe 8\n");
     printf("9-Informe 9\n");
@@ -145,7 +150,7 @@ int menuInformes()
     return opcion;
 }
 
-void informesAutos(eAuto autos[], int tamAutos , eMarca marcas[], int tamMarcas, eColor colores[], int tamColores, eTrabajo trabajos[], int tamTrabajos, eServicio servicios[], int tamServicio)
+void informesAutos(eAuto autos[], int tamAutos, eMarca marcas[], int tamMarcas, eColor colores[], int tamColores, eTrabajo trabajos[], int tamTrabajos, eServicio servicios[], int tamServicio)
 {
     char salir = 'n';
     printf("***** Informes ABM AUTOS ****\n\n");
@@ -171,11 +176,11 @@ void informesAutos(eAuto autos[], int tamAutos , eMarca marcas[], int tamMarcas,
             break;
 
         case 5:
-            //mostrarTrabajosFechaDeterminada(trabajos,tamTrabajos,servicios,tamServicio);
+            mostrarTrabajosFechaDeterminada(trabajos,tamTrabajos,servicios,tamServicio);
             break;
 
         case 6:
-            printf("Informe 6\n");
+            mostrarCantidadAutosXColor(autos,tamAutos,colores,tamColores);
             break;
 
         case 7:
@@ -331,18 +336,53 @@ int cantidadAutosMarca(eAuto autos[], int tamAutos,int idMarca)
     return cant;
 }
 
-/*void mostrarTrabajosFechaDeterminada(eTrabajo trabajos[], int tamTrabajos, eServicio servicios[], int tamServicios){
+void mostrarTrabajosFechaDeterminada(eTrabajo trabajos[], int tamTrabajos, eServicio servicios[], int tamServicios)
+{
 
     eTrabajo fechaPedida;
+    int cont = 0;
 
     printf("Ingrese fecha: ");
     scanf("%d/%d/%d",&fechaPedida.fecha.dia,&fechaPedida.fecha.mes,&fechaPedida.fecha.anio);
-
-    for(int i = 0; i< tamServicios; i++){
-        if((trabajos[i].fecha.dia == fechaPedida.fecha.dia) && (trabajos[i].fecha.mes == fechaPedida.fecha.mes) && (trabajos[i].fecha.anio == fechaPedida.fecha.anio) ){
-            mostrarTrabajos(trabajos,tamTrabajos,servicios,tamServicios);
-        }else{
-            printf("No hay Trabajos para mostrar en esa fecha\n");
+    printf(" IdTrabajo    Patente       Servicio    Fecha\n\n");
+    for(int i = 0; i< tamTrabajos; i++)
+    {
+        if((trabajos[i].fecha.dia == fechaPedida.fecha.dia) && (trabajos[i].fecha.mes == fechaPedida.fecha.mes) && (trabajos[i].fecha.anio == fechaPedida.fecha.anio) && (trabajos[i].isEmpty == 0))
+        {
+            mostrarTrabajo(trabajos[i],servicios,tamServicios);
+            cont++;
         }
     }
-}*/
+    if(cont == 0)
+    {
+        printf("No hay Trabajos para mostrar en esa fecha\n");
+    }
+}
+
+void mostrarCantidadAutosXColor(eAuto autos[], int tamAuto, eColor colores[], int tamColores)
+{
+
+    int contador = 0;
+    char desc[20];
+
+    system("cls");
+    printf("***Cantidad de Autos por Color***\n\n");
+
+    // Recorro vector de carreras
+    for(int i=0; i < tamColores; i++)
+    {
+        cargarDescColor(colores[i].id,colores,tamColores,desc);
+        printf("Color: %s\n\n", desc);
+
+        for(int j= 0; j < tamAuto; j++)
+        {
+            if( autos[j].isEmpty == 0 && autos[j].idColor == colores[i].id)
+            {
+                contador++;
+            }
+        }
+        printf("Cantidad: %d\n\n", contador);
+        contador = 0;
+    }
+    printf("\n\n");
+}

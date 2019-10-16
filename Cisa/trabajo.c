@@ -105,7 +105,7 @@ void mostrarTrabajos(eTrabajo trabajos[], int tamTrabajos,  eServicio servicios[
 {
 
     int flag = 0;
-    system("cls");
+
     printf("***** Listado Trabajos *****\n\n");
 
     printf(" IdTrabajo    Patente       Servicio    Fecha\n\n");
