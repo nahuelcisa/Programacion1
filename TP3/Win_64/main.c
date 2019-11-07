@@ -122,8 +122,7 @@ int main()
         case 7:
             if(flag)
             {
-
-
+                controller_sortEmployee(listaEmpleados);
             }
             else
             {

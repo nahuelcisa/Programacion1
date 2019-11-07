@@ -25,4 +25,9 @@ int employee_setSueldo(Employee* this,int sueldo);
 int employee_getSueldo(Employee* this,int* sueldo);
 
 int mostrarEmpleado(Employee* e);
+
+int sortByID(void*, void*);
+int sortByName(void*, void*);
+int sortByHoras(void*, void*);
+int sortBySueldo(void*, void*);
 #endif // employee_H_INCLUDED

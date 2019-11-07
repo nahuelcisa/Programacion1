@@ -152,3 +152,85 @@ int employee_getSueldo(Employee* this,int* sueldo)
     }
     return todoOk;
 }
+
+int sortByID(void* empleado1, void* empleado2){
+
+int retorno = 0;
+
+if(empleado1 != NULL && empleado2 != NULL){
+
+if(((Employee*)empleado1)->id > ((Employee*)empleado2)->id)
+{
+ retorno =  1;
+}
+if(((Employee*)empleado1)->id < ((Employee*)empleado2)->id)
+{
+ retorno =  -1;
+}
+
+}else{
+    return -2;
+}
+    return retorno;
+}
+
+int sortByName(void* empleado1, void* empleado2){
+
+    int retorno = -2;
+
+    Employee* emp1;
+    Employee* emp2;
+
+    emp1 = (Employee*)empleado1;
+    emp2 = (Employee*)empleado2;
+
+    if(empleado1 != NULL && empleado2 != NULL){
+
+            retorno = strcmp(emp1->nombre, emp2->nombre);
+
+    }
+    return retorno;
+}
+
+
+int sortByHoras(void* empleado1, void* empleado2){
+
+int retorno = 0;
+
+if(empleado1 != NULL && empleado2 != NULL){
+
+if(((Employee*)empleado1)->horasTrabajadas > ((Employee*)empleado2)->horasTrabajadas)
+{
+ retorno =  1;
+}
+if(((Employee*)empleado1)->horasTrabajadas < ((Employee*)empleado2)->horasTrabajadas)
+{
+ retorno =  -1;
+}
+
+}else{
+    return -2;
+}
+    return retorno;
+}
+
+
+int sortBySueldo(void* empleado1, void* empleado2){
+    int retorno = 0;
+
+if(empleado1 != NULL && empleado2 != NULL){
+
+if(((Employee*)empleado1)->sueldo > ((Employee*)empleado2)->sueldo)
+{
+ retorno =  1;
+}
+if(((Employee*)empleado1)->sueldo < ((Employee*)empleado2)->sueldo)
+{
+ retorno =  -1;
+}
+
+}else{
+    return -2;
+}
+    return retorno;
+}

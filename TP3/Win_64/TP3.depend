@@ -88,18 +88,20 @@
 
 1572868221 c:\users\alumno\desktop\programacion1\tp3\win_64\parser.h
 
-1573075666 source:c:\users\nahuel\desktop\programacion1\tp3\win_64\controller.c
+1573155906 source:c:\users\nahuel\desktop\programacion1\tp3\win_64\controller.c
 	<stdio.h>
 	<stdlib.h>
+	<string.h>
 	"LinkedList.h"
 	"Employee.h"
 	"parser.h"
+	"controller.h"
 
-1573063246 c:\users\nahuel\desktop\programacion1\tp3\win_64\linkedlist.h
+1573149217 c:\users\nahuel\desktop\programacion1\tp3\win_64\linkedlist.h
 
-1573068979 c:\users\nahuel\desktop\programacion1\tp3\win_64\employee.h
+1573152440 c:\users\nahuel\desktop\programacion1\tp3\win_64\employee.h
 
-1573068979 source:c:\users\nahuel\desktop\programacion1\tp3\win_64\employee.c
+1573154805 source:c:\users\nahuel\desktop\programacion1\tp3\win_64\employee.c
 	<stdio.h>
 	<stdlib.h>
 	"LinkedList.h"
@@ -107,18 +109,18 @@
 	"Employee.h"
 	<string.h>
 
-1573063246 c:\users\nahuel\desktop\programacion1\tp3\win_64\controller.h
+1573149217 c:\users\nahuel\desktop\programacion1\tp3\win_64\controller.h
 
-1573072332 source:c:\users\nahuel\desktop\programacion1\tp3\win_64\parser.c
+1573149217 source:c:\users\nahuel\desktop\programacion1\tp3\win_64\parser.c
 	<stdio.h>
 	<stdlib.h>
 	"LinkedList.h"
 	"Employee.h"
 	"parser.h"
 
-1573063246 c:\users\nahuel\desktop\programacion1\tp3\win_64\parser.h
+1573149217 c:\users\nahuel\desktop\programacion1\tp3\win_64\parser.h
 
-1573074162 source:c:\users\nahuel\desktop\programacion1\tp3\win_64\main.c
+1573155394 source:c:\users\nahuel\desktop\programacion1\tp3\win_64\main.c
 	<stdio.h>
 	<stdlib.h>
 	"LinkedList.h"

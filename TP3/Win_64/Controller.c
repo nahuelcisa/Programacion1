@@ -373,7 +373,66 @@ int controller_ListEmployee(LinkedList* pArrayListEmployee)
  */
 int controller_sortEmployee(LinkedList* pArrayListEmployee)
 {
-    return 1;
+
+    int todoOk = 0;
+    int opcion;
+    char rta = 'n';
+    int orden;
+
+    if(pArrayListEmployee != NULL){
+
+        printf("        ********        ORDENAR EMPLEADOS       ********       \n\n\n");
+        printf("1- Ordenar por ID\n");
+        printf("2- Ordenar por Nombre\n");
+        printf("3- Ordenar por Horas Trabajadas\n");
+        printf("4- Ordenar por Sueldo\n");
+        printf("5- Volver al menu\n");
+        printf("Elija opcion:");
+        scanf("%d",&opcion);
+
+        switch(opcion){
+
+        case 1:
+            printf("Ordena de forma descendente o ascendente?\n1 ascendente 0 descendente: ");
+            scanf("%d",&orden);
+            ll_sort(pArrayListEmployee,sortByID,orden);
+            break;
+
+        case 2:
+            printf("Ordena de forma descendente o ascendente?\n1 ascendente 0 descendente: ");
+            scanf("%d",&orden);
+            ll_sort(pArrayListEmployee,sortByName,orden);
+            break;
+
+        case 3:
+            printf("Ordena de forma descendente o ascendente?\n1 ascendente 0 descendente: ");
+            scanf("%d",&orden);
+            ll_sort(pArrayListEmployee,sortByHoras,orden);
+            break;
+
+        case 4:
+            printf("Ordena de forma descendente o ascendente?\n1 ascendente 0 descendente: ");
+            scanf("%d",&orden);
+            ll_sort(pArrayListEmployee,sortBySueldo,orden);
+            break;
+        case 5:
+            printf("Confirma? s/n ");
+            fflush(stdin);
+            rta = getchar();
+            if(rta == 's'){
+                break;
+            }
+            break;
+
+        default:
+            printf("Opcion incorrecta.\n");
+            system("pause");
+            break;
+        }
+
+     todoOk = 1;
+}
+        return todoOk;
 }
 
 /** \brief Guarda los datos de los empleados en el archivo data.csv (modo texto).
