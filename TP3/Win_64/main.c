@@ -22,8 +22,10 @@ int menu();
 
 int main()
 {
-    char rta = 's';
+    char rta = 'n';
     LinkedList* listaEmpleados = ll_newLinkedList();
+    int flag = 0;
+
 
     if( listaEmpleados == NULL)
     {
@@ -32,58 +34,149 @@ int main()
         exit(EXIT_FAILURE);
     }
 
-    do{
+    do
+    {
         switch(menu())
         {
-            case 1:
-                if(controller_loadFromText("data.csv",listaEmpleados)){
+
+        case 1:
+            if(flag == 0)
+            {
+
+                if(controller_loadFromText("data.csv",listaEmpleados))
+                {
                     printf("Empleados cargados con exito\n");
                 }
-                break;
-            case 2:
-                if(controller_loadFromBinary("data.bin",listaEmpleados)){
+                flag = 1;
+            }
+            else
+            {
+                printf("Los empleados ya han sido cargados.\n");
+            }
+            break;
+        case 2:
+            if(flag ==0)
+            {
+                if(controller_loadFromBinary("data.bin",listaEmpleados))
+                {
                     printf("Empleados cargados con exito\n");
                 }
-                break;
-            case 3:
+                flag = 1;
+            }
+            else
+            {
+                printf("Los empleados ya han sido cargados.\n");
+            }
+            break;
+        case 3:
+            if(flag)
+            {
                 controller_addEmployee(listaEmpleados);
-                break;
-            case 4:
-
-                break;
-            case 5:
+            }
+            else
+            {
+                printf("No hay empleados cargados.\n");
+            }
+            break;
+        case 4:
+            if(flag)
+            {
+                if(controller_editEmployee(listaEmpleados))
+                {
+                    printf("Modificacion exitosa\n");
+                }
+                else if(controller_editEmployee(listaEmpleados) == -1)
+                {
+                    printf("Se cancelo la modificacion\n");
+                }
+                else
+                {
+                    printf("Error. no se completo la modificacion\n");
+                }
+            }
+            else
+            {
+                printf("No hay empleados cargados.\n");
+            }
+            break;
+        case 5:
+            if(flag)
+            {
                 controller_removeEmployee(listaEmpleados);
-                break;
-            case 6:
+            }
+            else
+            {
+                printf("No hay empleados cargados.\n");
+            }
+            break;
+        case 6:
+            if(flag)
+            {
                 controller_ListEmployee(listaEmpleados);
-                break;
-            case 7:
+            }
+            else
+            {
+                printf("No hay empleados cargados.\n");
+            }
+            break;
+        case 7:
+            if(flag)
+            {
 
-                break;
-            case 8:
-                if(controller_saveAsText("data.csv",listaEmpleados)){
+
+            }
+            else
+            {
+                printf("No hay empleados cargados.\n");
+            }
+            break;
+        case 8:
+            if(flag)
+            {
+                if(controller_saveAsText("data.csv",listaEmpleados))
+                {
                     printf("Empleados Guardados en modo texto con exito\n");
                 }
-                break;
-            case 9:
-                if(controller_saveAsBinary("data.bin",listaEmpleados)){
+            }
+            else
+            {
+                printf("No hay empleados cargados.\n");
+            }
+            break;
+        case 9:
+            if(flag)
+            {
+                if(controller_saveAsBinary("data.bin",listaEmpleados))
+                {
                     printf("Empleados Guardados en modo binario con exito\n");
                 }
-                break;
-            case 10:
-
-                break;
+            }
+            else
+            {
+                printf("No hay empleados cargados.\n");
+            }
+            break;
+        case 10:
+            printf("Confirma salida? s/n ");
+            fflush(stdin);
+            rta = getchar();
+            break;
+        default:
+            printf("opcion invalida.\n");
+            break;
 
         }
 
         system("pause");
         system("cls");
 
-    }while(rta != 'n');
+    }
+    while(rta != 's');
     return 0;
 }
 
-int menu(){
+int menu()
+{
     int opcion;
 
     printf("*****       Menu De Inicio      *****\n\n");
