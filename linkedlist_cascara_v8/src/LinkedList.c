@@ -176,10 +176,10 @@ int ll_add(LinkedList* this, void* pElement)
     if(this != NULL)
     {
 
-            if( addNode(this,ll_len(this),pElement) == 0)
-            {
-                returnAux = 0;
-            }
+        if( addNode(this,ll_len(this),pElement) == 0)
+        {
+            returnAux = 0;
+        }
     }
     return returnAux;
 }
@@ -197,11 +197,12 @@ void* ll_get(LinkedList* this, int index)
     void* returnAux = NULL;
     Node* aux = NULL;
 
-    if(this!= NULL && index >= 0 && index < ll_len(this)){
+    if(this!= NULL && index >= 0 && index < ll_len(this))
+    {
 
-    aux = getNode(this,index);
+        aux = getNode(this,index);
 
-    returnAux = aux->pElement;
+        returnAux = aux->pElement;
 
     }
 
@@ -224,13 +225,14 @@ int ll_set(LinkedList* this, int index,void* pElement)
 
     Node* aux = NULL;
 
-    if(this!= NULL && index >= 0 && index < ll_len(this)){
+    if(this!= NULL && index >= 0 && index < ll_len(this))
+    {
 
-    aux = getNode(this,index);
+        aux = getNode(this,index);
 
-    aux->pElement = pElement;
+        aux->pElement = pElement;
 
-    returnAux = 0;
+        returnAux = 0;
 
     }
 
@@ -253,14 +255,28 @@ int ll_remove(LinkedList* this,int index)
     Node* actual = NULL;
     Node* anterior = NULL;
 
-    if(this != NULL && index >= 0 && index < ll_len(this)){
-        actual = getNode(this,index);
-        if(actual != NULL){
-            anterior = getNode(this,index-1);
-            if(anterior!= NULL){
-                anterior->pNextNode = actual->pNextNode;
-                returnAux = 0;
+    if(this != NULL && index >= 0 && index < ll_len(this))
+    {
+
+        if(ll_len(this) > 1)
+        {
+            actual = getNode(this,index);
+            if(actual != NULL)
+            {
+                anterior = getNode(this,index-1);
+                if(anterior!= NULL)
+                {
+                    anterior->pNextNode = actual->pNextNode;
+                    this->size--;
+                    free(actual);
+
+                }
             }
+            returnAux = 0;
+        }else if(ll_len(this) == 1){
+            this->pFirstNode = NULL;
+            this->size--;
+            returnAux = 0;
         }
     }
 
