@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1573645753 source:c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8\testing\src\addnodetest.c
+1574252016 source:c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8 copia terminada\testing\src\addnodetest.c
 	"../../testing/utest.h"
 	<stdio.h>
 	<stdlib.h>
@@ -7,13 +7,13 @@
 	"../../inc/LinkedList.h"
 	"../../testing/inc/Employee.h"
 
-1573645753 c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8\testing\utest.h
+1574252016 c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8 copia terminada\testing\utest.h
 
-1573645753 c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8\inc\linkedlist.h
+1574252016 c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8 copia terminada\inc\linkedlist.h
 
-1573645753 c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8\testing\inc\employee.h
+1574252016 c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8 copia terminada\testing\inc\employee.h
 
-1573645753 source:c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8\testing\src\addtest.c
+1574252016 source:c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8 copia terminada\testing\src\addtest.c
 	"../../testing/utest.h"
 	<stdio.h>
 	<stdlib.h>
@@ -21,7 +21,7 @@
 	"../../inc/LinkedList.h"
 	"../../testing/inc/Employee.h"
 
-1573645753 source:c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8\testing\src\cleartest.c
+1574252016 source:c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8 copia terminada\testing\src\cleartest.c
 	"../../testing/utest.h"
 	<stdio.h>
 	<stdlib.h>
@@ -29,7 +29,7 @@
 	"../../inc/LinkedList.h"
 	"../../testing/inc/Employee.h"
 
-1573645753 source:c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8\testing\src\clonetest.c
+1574252016 source:c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8 copia terminada\testing\src\clonetest.c
 	"../../testing/utest.h"
 	<stdio.h>
 	<stdlib.h>
@@ -37,7 +37,7 @@
 	"../../inc/LinkedList.h"
 	"../../testing/inc/Employee.h"
 
-1573645753 source:c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8\testing\src\containsalltest.c
+1574252016 source:c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8 copia terminada\testing\src\containsalltest.c
 	"../../testing/utest.h"
 	<stdio.h>
 	<stdlib.h>
@@ -45,7 +45,7 @@
 	"../../inc/LinkedList.h"
 	"../../testing/inc/Employee.h"
 
-1573645753 source:c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8\testing\src\containstest.c
+1574252016 source:c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8 copia terminada\testing\src\containstest.c
 	"../../testing/utest.h"
 	<stdio.h>
 	<stdlib.h>
@@ -53,7 +53,7 @@
 	"../../inc/LinkedList.h"
 	"../../testing/inc/Employee.h"
 
-1573645753 source:c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8\testing\src\deletelinkedlisttest.c
+1574252016 source:c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8 copia terminada\testing\src\deletelinkedlisttest.c
 	"../../testing/utest.h"
 	<stdio.h>
 	<stdlib.h>
@@ -61,13 +61,13 @@
 	"../../inc/LinkedList.h"
 	"../../testing/inc/Employee.h"
 
-1573645753 source:c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8\testing\src\employee.c
+1574252016 source:c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8 copia terminada\testing\src\employee.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"../inc/Employee.h"
 
-1573645753 source:c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8\testing\src\getnodetest.c
+1574252016 source:c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8 copia terminada\testing\src\getnodetest.c
 	"../../testing/utest.h"
 	<stdio.h>
 	<stdlib.h>
@@ -75,7 +75,7 @@
 	"../../inc/LinkedList.h"
 	"../../testing/inc/Employee.h"
 
-1573645753 source:c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8\testing\src\gettest.c
+1574252016 source:c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8 copia terminada\testing\src\gettest.c
 	"../../testing/utest.h"
 	<stdio.h>
 	<stdlib.h>
@@ -83,7 +83,7 @@
 	"../../inc/LinkedList.h"
 	"../../testing/inc/Employee.h"
 
-1573645753 source:c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8\testing\src\indexoftest.c
+1574252016 source:c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8 copia terminada\testing\src\indexoftest.c
 	"../../testing/utest.h"
 	<stdio.h>
 	<stdlib.h>
@@ -91,7 +91,7 @@
 	"../../inc/LinkedList.h"
 	"../../testing/inc/Employee.h"
 
-1573645753 source:c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8\testing\src\isemptytest.c
+1574252016 source:c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8 copia terminada\testing\src\isemptytest.c
 	"../../testing/utest.h"
 	<stdio.h>
 	<stdlib.h>
@@ -99,7 +99,7 @@
 	"../../inc/LinkedList.h"
 	"../../testing/inc/Employee.h"
 
-1573645753 source:c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8\testing\src\lentest.c
+1574252016 source:c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8 copia terminada\testing\src\lentest.c
 	"../../testing/utest.h"
 	<stdio.h>
 	<stdlib.h>
@@ -107,7 +107,7 @@
 	"../../inc/LinkedList.h"
 	"../../testing/inc/Employee.h"
 
-1573645753 source:c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8\testing\src\main_test.c
+1574252016 source:c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8 copia terminada\testing\src\main_test.c
 	"../../testing/utest.h"
 	<stdio.h>
 	<stdlib.h>
@@ -131,60 +131,52 @@
 	"../inc/containsAllTest.h"
 	"../inc/sortTest.h"
 
-1573645753 c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8\testing\inc\newtest.h
+1574252016 c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8 copia terminada\testing\inc\newtest.h
 
-1573645753 c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8\testing\inc\addtest.h
+1574252016 c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8 copia terminada\testing\inc\addtest.h
 
-1573645753 c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8\testing\inc\getnodetest.h
+1574252016 c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8 copia terminada\testing\inc\getnodetest.h
 
-1573645753 c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8\testing\inc\addnodetest.h
+1574252016 c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8 copia terminada\testing\inc\addnodetest.h
 
-1573645753 c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8\testing\inc\deletelinkedlisttest.h
+1574252016 c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8 copia terminada\testing\inc\deletelinkedlisttest.h
 
-1573645753 c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8\testing\inc\lentest.h
+1574252016 c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8 copia terminada\testing\inc\lentest.h
 
-1573645753 c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8\testing\inc\gettest.h
+1574252016 c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8 copia terminada\testing\inc\gettest.h
 
-1573645753 c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8\testing\inc\containstest.h
+1574252016 c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8 copia terminada\testing\inc\containstest.h
 
-1573645753 c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8\testing\inc\settest.h
+1574252016 c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8 copia terminada\testing\inc\settest.h
 
-1573645753 c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8\testing\inc\removetest.h
+1574252016 c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8 copia terminada\testing\inc\removetest.h
 
-1573645753 c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8\testing\inc\cleartest.h
+1574252016 c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8 copia terminada\testing\inc\cleartest.h
 
-1573645753 c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8\testing\inc\clonetest.h
+1574252016 c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8 copia terminada\testing\inc\clonetest.h
 
-1573645753 c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8\testing\inc\pushtest.h
+1574252016 c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8 copia terminada\testing\inc\pushtest.h
 
-1573645753 c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8\testing\inc\indexoftest.h
+1574252016 c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8 copia terminada\testing\inc\indexoftest.h
 
-1573645753 c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8\testing\inc\isemptytest.h
+1574252016 c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8 copia terminada\testing\inc\isemptytest.h
 
-1573645753 c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8\testing\inc\poptest.h
+1574252016 c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8 copia terminada\testing\inc\poptest.h
 
-1573645753 c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8\testing\inc\sublisttest.h
+1574252016 c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8 copia terminada\testing\inc\sublisttest.h
 
-1573645753 c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8\testing\inc\containsalltest.h
+1574252016 c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8 copia terminada\testing\inc\containsalltest.h
 
-1573645753 c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8\testing\inc\sorttest.h
+1574252016 c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8 copia terminada\testing\inc\sorttest.h
 
-1573645753 source:c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8\testing\src\newtest.c
+1574252016 source:c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8 copia terminada\testing\src\newtest.c
 	"../../testing/utest.h"
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"../../inc/LinkedList.h"
 
-1573645753 source:c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8\testing\src\poptest.c
-	"../../testing/utest.h"
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	"../../inc/LinkedList.h"
-	"../../testing/inc/Employee.h"
-
-1573645753 source:c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8\testing\src\pushtest.c
+1574252016 source:c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8 copia terminada\testing\src\poptest.c
 	"../../testing/utest.h"
 	<stdio.h>
 	<stdlib.h>
@@ -192,7 +184,7 @@
 	"../../inc/LinkedList.h"
 	"../../testing/inc/Employee.h"
 
-1573645753 source:c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8\testing\src\removetest.c
+1574252016 source:c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8 copia terminada\testing\src\pushtest.c
 	"../../testing/utest.h"
 	<stdio.h>
 	<stdlib.h>
@@ -200,7 +192,7 @@
 	"../../inc/LinkedList.h"
 	"../../testing/inc/Employee.h"
 
-1573645753 source:c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8\testing\src\settest.c
+1574252016 source:c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8 copia terminada\testing\src\removetest.c
 	"../../testing/utest.h"
 	<stdio.h>
 	<stdlib.h>
@@ -208,7 +200,7 @@
 	"../../inc/LinkedList.h"
 	"../../testing/inc/Employee.h"
 
-1573645753 source:c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8\testing\src\sorttest.c
+1574252016 source:c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8 copia terminada\testing\src\settest.c
 	"../../testing/utest.h"
 	<stdio.h>
 	<stdlib.h>
@@ -216,7 +208,7 @@
 	"../../inc/LinkedList.h"
 	"../../testing/inc/Employee.h"
 
-1573645753 source:c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8\testing\src\sublisttest.c
+1574252016 source:c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8 copia terminada\testing\src\sorttest.c
 	"../../testing/utest.h"
 	<stdio.h>
 	<stdlib.h>
@@ -224,268 +216,30 @@
 	"../../inc/LinkedList.h"
 	"../../testing/inc/Employee.h"
 
-1573645753 source:c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8\testing\utest.c
+1574252016 source:c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8 copia terminada\testing\src\sublisttest.c
+	"../../testing/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/LinkedList.h"
+	"../../testing/inc/Employee.h"
+
+1574252016 source:c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8 copia terminada\testing\utest.c
 	"utest.h"
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 
-1573657483 source:c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8\src\linkedlist.c
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	"../inc/LinkedList.h"
-
-1573655645 source:c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8\src\main.c
+1574252016 source:c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8 copia terminada\src\main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"../testing/inc/main_test.h"
 	"../inc/LinkedList.h"
 
-1573645753 c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8\testing\inc\main_test.h
+1574252016 c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8 copia terminada\testing\inc\main_test.h
 
-1573657895 source:c:\users\giuliiii\desktop\programacion1-master\linkedlist_cascara_v8\testing\src\addnodetest.c
-	"../../testing/utest.h"
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	"../../inc/LinkedList.h"
-	"../../testing/inc/Employee.h"
-
-1573657895 c:\users\giuliiii\desktop\programacion1-master\linkedlist_cascara_v8\testing\utest.h
-
-1573657895 c:\users\giuliiii\desktop\programacion1-master\linkedlist_cascara_v8\inc\linkedlist.h
-
-1573657895 c:\users\giuliiii\desktop\programacion1-master\linkedlist_cascara_v8\testing\inc\employee.h
-
-1573657895 source:c:\users\giuliiii\desktop\programacion1-master\linkedlist_cascara_v8\testing\src\addtest.c
-	"../../testing/utest.h"
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	"../../inc/LinkedList.h"
-	"../../testing/inc/Employee.h"
-
-1573657895 source:c:\users\giuliiii\desktop\programacion1-master\linkedlist_cascara_v8\testing\src\cleartest.c
-	"../../testing/utest.h"
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	"../../inc/LinkedList.h"
-	"../../testing/inc/Employee.h"
-
-1573657895 source:c:\users\giuliiii\desktop\programacion1-master\linkedlist_cascara_v8\testing\src\clonetest.c
-	"../../testing/utest.h"
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	"../../inc/LinkedList.h"
-	"../../testing/inc/Employee.h"
-
-1573657895 source:c:\users\giuliiii\desktop\programacion1-master\linkedlist_cascara_v8\testing\src\containsalltest.c
-	"../../testing/utest.h"
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	"../../inc/LinkedList.h"
-	"../../testing/inc/Employee.h"
-
-1573657895 source:c:\users\giuliiii\desktop\programacion1-master\linkedlist_cascara_v8\testing\src\containstest.c
-	"../../testing/utest.h"
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	"../../inc/LinkedList.h"
-	"../../testing/inc/Employee.h"
-
-1573657895 source:c:\users\giuliiii\desktop\programacion1-master\linkedlist_cascara_v8\testing\src\deletelinkedlisttest.c
-	"../../testing/utest.h"
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	"../../inc/LinkedList.h"
-	"../../testing/inc/Employee.h"
-
-1573657895 source:c:\users\giuliiii\desktop\programacion1-master\linkedlist_cascara_v8\testing\src\employee.c
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	"../inc/Employee.h"
-
-1573657895 source:c:\users\giuliiii\desktop\programacion1-master\linkedlist_cascara_v8\testing\src\getnodetest.c
-	"../../testing/utest.h"
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	"../../inc/LinkedList.h"
-	"../../testing/inc/Employee.h"
-
-1573657895 source:c:\users\giuliiii\desktop\programacion1-master\linkedlist_cascara_v8\testing\src\gettest.c
-	"../../testing/utest.h"
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	"../../inc/LinkedList.h"
-	"../../testing/inc/Employee.h"
-
-1573657895 source:c:\users\giuliiii\desktop\programacion1-master\linkedlist_cascara_v8\testing\src\indexoftest.c
-	"../../testing/utest.h"
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	"../../inc/LinkedList.h"
-	"../../testing/inc/Employee.h"
-
-1573657895 source:c:\users\giuliiii\desktop\programacion1-master\linkedlist_cascara_v8\testing\src\isemptytest.c
-	"../../testing/utest.h"
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	"../../inc/LinkedList.h"
-	"../../testing/inc/Employee.h"
-
-1573657895 source:c:\users\giuliiii\desktop\programacion1-master\linkedlist_cascara_v8\testing\src\lentest.c
-	"../../testing/utest.h"
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	"../../inc/LinkedList.h"
-	"../../testing/inc/Employee.h"
-
-1573657895 source:c:\users\giuliiii\desktop\programacion1-master\linkedlist_cascara_v8\testing\src\main_test.c
-	"../../testing/utest.h"
-	<stdio.h>
-	<stdlib.h>
-	"../inc/newTest.h"
-	"../inc/addTest.h"
-	"../inc/getNodeTest.h"
-	"../inc/addNodeTest.h"
-	"../inc/deleteLinkedListTest.h"
-	"../inc/lenTest.h"
-	"../inc/getTest.h"
-	"../inc/containsTest.h"
-	"../inc/setTest.h"
-	"../inc/removeTest.h"
-	"../inc/clearTest.h"
-	"../inc/cloneTest.h"
-	"../inc/pushTest.h"
-	"../inc/indexOfTest.h"
-	"../inc/isEmptyTest.h"
-	"../inc/popTest.h"
-	"../inc/subListTest.h"
-	"../inc/containsAllTest.h"
-	"../inc/sortTest.h"
-
-1573657895 c:\users\giuliiii\desktop\programacion1-master\linkedlist_cascara_v8\testing\inc\newtest.h
-
-1573657895 c:\users\giuliiii\desktop\programacion1-master\linkedlist_cascara_v8\testing\inc\addtest.h
-
-1573657895 c:\users\giuliiii\desktop\programacion1-master\linkedlist_cascara_v8\testing\inc\getnodetest.h
-
-1573657895 c:\users\giuliiii\desktop\programacion1-master\linkedlist_cascara_v8\testing\inc\addnodetest.h
-
-1573657895 c:\users\giuliiii\desktop\programacion1-master\linkedlist_cascara_v8\testing\inc\deletelinkedlisttest.h
-
-1573657895 c:\users\giuliiii\desktop\programacion1-master\linkedlist_cascara_v8\testing\inc\lentest.h
-
-1573657895 c:\users\giuliiii\desktop\programacion1-master\linkedlist_cascara_v8\testing\inc\gettest.h
-
-1573657895 c:\users\giuliiii\desktop\programacion1-master\linkedlist_cascara_v8\testing\inc\containstest.h
-
-1573657895 c:\users\giuliiii\desktop\programacion1-master\linkedlist_cascara_v8\testing\inc\settest.h
-
-1573657895 c:\users\giuliiii\desktop\programacion1-master\linkedlist_cascara_v8\testing\inc\removetest.h
-
-1573657895 c:\users\giuliiii\desktop\programacion1-master\linkedlist_cascara_v8\testing\inc\cleartest.h
-
-1573657895 c:\users\giuliiii\desktop\programacion1-master\linkedlist_cascara_v8\testing\inc\clonetest.h
-
-1573657895 c:\users\giuliiii\desktop\programacion1-master\linkedlist_cascara_v8\testing\inc\pushtest.h
-
-1573657895 c:\users\giuliiii\desktop\programacion1-master\linkedlist_cascara_v8\testing\inc\indexoftest.h
-
-1573657895 c:\users\giuliiii\desktop\programacion1-master\linkedlist_cascara_v8\testing\inc\isemptytest.h
-
-1573657895 c:\users\giuliiii\desktop\programacion1-master\linkedlist_cascara_v8\testing\inc\poptest.h
-
-1573657895 c:\users\giuliiii\desktop\programacion1-master\linkedlist_cascara_v8\testing\inc\sublisttest.h
-
-1573657895 c:\users\giuliiii\desktop\programacion1-master\linkedlist_cascara_v8\testing\inc\containsalltest.h
-
-1573657895 c:\users\giuliiii\desktop\programacion1-master\linkedlist_cascara_v8\testing\inc\sorttest.h
-
-1573657895 source:c:\users\giuliiii\desktop\programacion1-master\linkedlist_cascara_v8\testing\src\newtest.c
-	"../../testing/utest.h"
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	"../../inc/LinkedList.h"
-
-1573657895 source:c:\users\giuliiii\desktop\programacion1-master\linkedlist_cascara_v8\testing\src\poptest.c
-	"../../testing/utest.h"
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	"../../inc/LinkedList.h"
-	"../../testing/inc/Employee.h"
-
-1573657895 source:c:\users\giuliiii\desktop\programacion1-master\linkedlist_cascara_v8\testing\src\pushtest.c
-	"../../testing/utest.h"
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	"../../inc/LinkedList.h"
-	"../../testing/inc/Employee.h"
-
-1573657895 source:c:\users\giuliiii\desktop\programacion1-master\linkedlist_cascara_v8\testing\src\removetest.c
-	"../../testing/utest.h"
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	"../../inc/LinkedList.h"
-	"../../testing/inc/Employee.h"
-
-1573657895 source:c:\users\giuliiii\desktop\programacion1-master\linkedlist_cascara_v8\testing\src\settest.c
-	"../../testing/utest.h"
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	"../../inc/LinkedList.h"
-	"../../testing/inc/Employee.h"
-
-1573657895 source:c:\users\giuliiii\desktop\programacion1-master\linkedlist_cascara_v8\testing\src\sorttest.c
-	"../../testing/utest.h"
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	"../../inc/LinkedList.h"
-	"../../testing/inc/Employee.h"
-
-1573657895 source:c:\users\giuliiii\desktop\programacion1-master\linkedlist_cascara_v8\testing\src\sublisttest.c
-	"../../testing/utest.h"
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	"../../inc/LinkedList.h"
-	"../../testing/inc/Employee.h"
-
-1573657895 source:c:\users\giuliiii\desktop\programacion1-master\linkedlist_cascara_v8\testing\utest.c
-	"utest.h"
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-
-1573691693 source:c:\users\giuliiii\desktop\programacion1-master\linkedlist_cascara_v8\src\main.c
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	"../testing/inc/main_test.h"
-	"../inc/LinkedList.h"
-
-1573657895 c:\users\giuliiii\desktop\programacion1-master\linkedlist_cascara_v8\testing\inc\main_test.h
-
-1573691726 source:c:\users\giuliiii\desktop\programacion1-master\linkedlist_cascara_v8\src\linkedlist.c
+1574253077 source:c:\users\alumno\desktop\programacion1\linkedlist_cascara_v8 copia terminada\src\linkedlist.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
