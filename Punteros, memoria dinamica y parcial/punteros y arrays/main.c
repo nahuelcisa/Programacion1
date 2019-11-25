@@ -3,7 +3,7 @@
 
 int main()
 {
-   int numeros[]= { 3,2,7,8,5};
+   int numeros[]= {3,2,7,8,5};
 
    printf("Ingrese un numero: ");
    scanf("%d", numeros + 3);

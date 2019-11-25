@@ -55,7 +55,7 @@ int main()
             {
                 printf("Los empleados ya han sido cargados.\n");
             }
-
+        controller_ListEmployee(listaDominio);
 /*
     do
     {

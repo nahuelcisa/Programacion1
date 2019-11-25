@@ -31,15 +31,16 @@ int controller_loadFromText(char* path, LinkedList* pArrayListEmployee)
             printf("No se pudo abrir el archivo\n");
             return todoOk;
         }
-        fscanf(f,"%[^,],%[^,],%[^\n]\n", buffer[0], buffer[1], buffer[2]);
+        fscanf(f,"%[^,],%[^,],%[^,],%[^\n]\n", buffer[0], buffer[1], buffer[2],buffer[3]);
+
 
         while(!feof(f))
         {
 //fscanf devuelve la cantidad de variables que pudo leer
 
-            cant = fscanf(f,"%[^,],%[^,],%[^\n]\n", buffer[0], buffer[1], buffer[2]);
+            cant = fscanf(f,"%[^,],%[^,],%[^,],%[^\n]\n", buffer[0], buffer[1], buffer[2],buffer[3]);
 
-            if( cant == 3)
+            if( cant == 4)
             {
                 aux = employee_newParametros(buffer[0], buffer[1], buffer[2],buffer[3]);
 //atoi hace el parseint, convierte string a int, atof lo mismo pero en float

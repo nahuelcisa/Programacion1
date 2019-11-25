@@ -1,0 +1,65 @@
+# depslib dependency file v1.0
+1574270125 source:c:\users\nahuel\desktop\prueba\dominio.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Dominio.h"
+
+1574266506 c:\users\nahuel\desktop\prueba\linkedlist.h
+
+1574270918 c:\users\nahuel\desktop\prueba\controller.h
+
+1574270196 c:\users\nahuel\desktop\prueba\dominio.h
+
+1574272102 source:c:\users\nahuel\desktop\prueba\controller.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"controller.h"
+	"Dominio.h"
+
+1574272108 source:c:\users\nahuel\desktop\prueba\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1574273839 source:c:\users\nahuel\desktop\programacion1\abm con mi linkedlist y modelo parcial\controller.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"controller.h"
+	"Dominio.h"
+
+1574266506 c:\users\nahuel\desktop\programacion1\abm con mi linkedlist y modelo parcial\linkedlist.h
+
+1574270918 c:\users\nahuel\desktop\programacion1\abm con mi linkedlist y modelo parcial\controller.h
+
+1574273643 c:\users\nahuel\desktop\programacion1\abm con mi linkedlist y modelo parcial\dominio.h
+
+1574273646 source:c:\users\nahuel\desktop\programacion1\abm con mi linkedlist y modelo parcial\dominio.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Dominio.h"
+
+1574273782 source:c:\users\nahuel\desktop\programacion1\abm con mi linkedlist y modelo parcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Dominio.h"
+
+1574273261 source:c:\users\nahuel\desktop\programacion1\abm con mi linkedlist y modelo parcial\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
