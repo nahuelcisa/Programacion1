@@ -1,0 +1,36 @@
+# depslib dependency file v1.0
+1574791472 source:c:\users\nahuel\desktop\programa para parcial2 lab\employee.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+	<string.h>
+
+1574793532 c:\users\nahuel\desktop\programa para parcial2 lab\linkedlist.h
+
+1574793339 c:\users\nahuel\desktop\programa para parcial2 lab\controller.h
+
+1574790644 c:\users\nahuel\desktop\programa para parcial2 lab\employee.h
+
+1574787482 source:c:\users\nahuel\desktop\programa para parcial2 lab\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1574793467 source:c:\users\nahuel\desktop\programa para parcial2 lab\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+
+1574793350 source:c:\users\nahuel\desktop\programa para parcial2 lab\controller.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Employee.h"
+	"controller.h"
+
