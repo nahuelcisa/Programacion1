@@ -15,5 +15,6 @@ LinkedList* controller_CloneList(LinkedList* pArrayListEmployee);
 LinkedList* controller_SubList(LinkedList* pArrayListEmployee);
 int controller_Contains(LinkedList* pArrayListEmployee);
 int controller_ContainsAll(LinkedList* pArrayListEmployee, LinkedList* pArrayListEmployee2);
+int controller_addEmployeeSet(LinkedList* pArrayListEmployee);
 int menuModificacion();
 

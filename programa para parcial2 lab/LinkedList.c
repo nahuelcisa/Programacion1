@@ -639,5 +639,3 @@ int ll_reduce(LinkedList* this, int (*pFunc)(void*))
     }
     return retorno;
 }
-
-

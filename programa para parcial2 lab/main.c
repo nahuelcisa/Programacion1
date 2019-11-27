@@ -267,6 +267,19 @@ int main()
             }
             break;
         case 20:
+            if(flag)
+            {
+            if(controller_addEmployeeSet(listaEmpleados))
+            {
+                    printf("Empleado agregado con exito.\n");
+            }
+            else
+            {
+                printf("Hubo un error.\n");
+            }
+            }
+            break;
+        case 21:
             printf("Confirma salida? s/n ");
             fflush(stdin);
             rta = getchar();
@@ -309,7 +322,9 @@ int menu()
     printf("17. Crear una nueva lista con el rango de empleados elegido.\n");
     printf("18. Una vez copiada la lista 2, saber si se copio un empleado en especifico.\n");
     printf("19. saber si todos los elementos de la lista 2 se encuentran en la lista 1.\n");
-    printf("20. Salir\n\n");
+    printf("19. saber si todos los elementos de la lista 2 se encuentran en la lista 1.\n");
+    printf("20. dar de alta un empleado y pisar el dato que ya esta en un indice en especifico.\n");
+    printf("21. Salir\n\n");
     printf("Ingrese opcion: ");
     scanf("%d",&opcion);
 

@@ -600,6 +600,72 @@ int controller_addEmployeePush(LinkedList* pArrayListEmployee)
     return todoOk;
 }
 
+int controller_addEmployeeSet(LinkedList* pArrayListEmployee)
+{
+    int todoOk = 0;
+    char buffer[4][20];
+    Employee* filtro = NULL;
+    int flagFor = 0;
+    int posicion;
+
+    if(pArrayListEmployee != NULL){
+
+        printf("        ********        AGREGAR EMPLEADO EN INDICE EN ESPECIFICO PISANDO UNO YA EXISTENTE       ********       \n\n\n");
+        printf("Ingrese posicion donde quiere ingresar el empleado:");
+        scanf("%d",&posicion);
+        while(posicion> ll_len(pArrayListEmployee) || posicion < 0){
+            printf("Error. Reingrese posicion donde quiere ingresar el empleado:");
+            scanf("%d",&posicion);
+        }
+        printf("Ingrese ID:");
+        fflush(stdin);
+        gets(buffer[0]);
+        for(int i = 0;i<ll_len(pArrayListEmployee);i++){
+            filtro = (Employee*) ll_get(pArrayListEmployee,i);
+            if(filtro->id == atoi(buffer[0])){
+                printf("ID YA CARGADA EN EL SISTEMA\n");
+                flagFor = 1;
+                break;
+            }
+        }
+        if(flagFor == 1 ){
+            while(filtro->id == atoi(buffer[0])){
+                printf("Reingrese un ID valido:");
+                fflush(stdin);
+                gets(buffer[0]);
+            }
+        }
+
+        printf("Ingrese nombre:");
+        fflush(stdin);
+        gets(buffer[1]);
+
+        printf("Ingrese horas trabajadas:");
+            fflush(stdin);
+            gets(buffer[2]);
+        while(atoi(buffer[2])< 0){
+            printf("ERROR. las horas no pueden ser menores a 0.\nReingrese:");
+            fflush(stdin);
+            gets(buffer[2]);
+        }
+        printf("Ingrese Sueldo:");
+            fflush(stdin);
+            gets(buffer[3]);
+        while(atoi(buffer[3])< 0){
+            printf("ERROR. el sueldo no puede ser menor a 0.\nReingrese:");
+            fflush(stdin);
+            gets(buffer[3]);
+        }
+
+        ll_set(pArrayListEmployee,posicion-1,employee_newParametros(buffer[0],buffer[1],buffer[2],buffer[3]));
+
+        todoOk = 1;
+
+    }
+
+    return todoOk;
+}
+
 LinkedList* controller_CloneList(LinkedList* pArrayListEmployee){
 
 

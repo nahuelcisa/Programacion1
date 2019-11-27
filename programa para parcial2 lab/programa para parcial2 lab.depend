@@ -34,3 +34,38 @@
 	"Employee.h"
 	"controller.h"
 
+1574813623 source:c:\users\nahuel\desktop\programacion1\programa para parcial2 lab\controller.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Employee.h"
+	"controller.h"
+
+1574793532 c:\users\nahuel\desktop\programacion1\programa para parcial2 lab\linkedlist.h
+
+1574790644 c:\users\nahuel\desktop\programacion1\programa para parcial2 lab\employee.h
+
+1574813623 c:\users\nahuel\desktop\programacion1\programa para parcial2 lab\controller.h
+
+1574791472 source:c:\users\nahuel\desktop\programacion1\programa para parcial2 lab\employee.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+	<string.h>
+
+1574793467 source:c:\users\nahuel\desktop\programacion1\programa para parcial2 lab\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+
+1574806661 source:c:\users\nahuel\desktop\programacion1\programa para parcial2 lab\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
