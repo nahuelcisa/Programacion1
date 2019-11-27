@@ -1,0 +1,38 @@
+# depslib dependency file v1.0
+1574863171 source:c:\users\alumno\desktop\parcial 2 laboratorio\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1574859078 c:\users\alumno\desktop\parcial 2 laboratorio\linkedlist.h
+
+1574864589 source:c:\users\alumno\desktop\parcial 2 laboratorio\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"cachorro.h"
+	"controller.h"
+
+1574864549 c:\users\alumno\desktop\parcial 2 laboratorio\cachorro.h
+	"LinkedList.h"
+
+1574864568 source:c:\users\alumno\desktop\parcial 2 laboratorio\cachorro.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"cachorro.h"
+	"LinkedList.h"
+	"controller.h"
+
+1574864549 source:c:\users\alumno\desktop\parcial 2 laboratorio\controller.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"cachorro.h"
+	"controller.h"
+
+1574864549 c:\users\alumno\desktop\parcial 2 laboratorio\controller.h
+
